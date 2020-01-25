@@ -2,7 +2,6 @@
 # Conditional build:
 %bcond_without	tests		# perform "make test"
 #
-%include	/usr/lib/rpm/macros.perl
 %define	pdir	DateTime
 %define	pnam	Event-Sunrise
 Summary:	DateTime::Event::Sunrise - Perl DateTime extension for computing the sunrise/sunset on a given day
